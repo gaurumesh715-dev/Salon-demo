@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Salon - Local Beauty Services in India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service {
+            flex: 1 1 200px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #25d366;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .whatsapp-btn:hover {
+            background-color: #128c7e;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .services {
+                flex-direction: column;
+            }
+            header {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Elegant Salon
+    </header>
+    <div class="container">
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Hair Cut & Styling</h3>
+                    <p>Professional haircuts and styling for all hair types.</p>
+                </div>
+                <div class="service">
+                    <h3>Facial Treatments</h3>
+                    <p>Rejuvenating facials to refresh your skin.</p>
+                </div>
+                <div class="service">
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Complete nail care services.</p>
+                </div>
+                <div class="service">
+                    <h3>Body Massage</h3>
+                    <p>Relaxing massages for ultimate comfort.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact">
+                <p><strong>Phone:</strong> +91-9876543210</p>
+                <p><strong>Address:</strong> 123 Main Street, Mumbai, Maharashtra, India - 400001</p>
+                <a href="https://wa.me/919876543210" class="whatsapp-btn" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </section>
+        <section id="location">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.972!2d72.8777!3d19.0760!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c630b4d4c4b9%3A0x1b5b1b1b1b1b1b1b!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+</body>
+</html>
